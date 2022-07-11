@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    padding: 10px, 20px;
+    background-color: black;
+    background-image: url('img/ghosts.png');
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+}
+
+canvas {
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 6px;
+}
+
+#title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#above {
+    width: 590px;
+    margin: 0 auto;
+}
+
+#life {
+    float: right;
+}
+
+#restart {
+    position: relative;
+    display: block;
+    margin: 20px auto;
+    padding: 5px 8px;
+    font-size: 25px;
+}
+
+#below {
+    width: 1200px;
+    margin: 20px auto 50px auto;
+    border: 3px solid white;
+    padding: 10px;
+}
+
+#below1, #below2 {
+    margin-top: 0;
+}
